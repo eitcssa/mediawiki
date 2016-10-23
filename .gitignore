@@ -1,0 +1,17 @@
+# Ignore everything
+/*
+
+# Except .gitignore
+!.gitignore
+
+# Except for database, uploads, extensions and settings
+!/mediawiki
+mediawiki/*
+
+!data/*
+
+!mediawiki/images
+
+!mediawiki/extensions
+
+!mediawiki/LocalSettings.php
