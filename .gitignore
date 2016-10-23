@@ -5,13 +5,8 @@
 !.gitignore
 
 # Except for database, uploads, extensions and settings
-!/mediawiki
-mediawiki/*
+!images
+!skins
+!extensions
 
-!data/*
-
-!mediawiki/images
-
-!mediawiki/extensions
-
-!mediawiki/LocalSettings.php
+!LocalSettings.php
