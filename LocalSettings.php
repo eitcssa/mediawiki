@@ -26,9 +26,12 @@ $wgSitename = "EITCSSA";
 ## (like /w/index.php/Page_title to /wiki/Page_title) please see:
 ## https://www.mediawiki.org/wiki/Manual:Short_URL
 $wgScriptPath = "";
+$wgArticlePath      = "/$1";
+$wgUsePathInfo      = false;
+
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "http://45.76.107.2";
+$wgServer = "http://wiki.eitcssa.eu";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
